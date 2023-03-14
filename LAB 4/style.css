@@ -1,0 +1,84 @@
+body{
+  margin:0px;
+  padding:0px;
+  font-family: "Comic Sans MS", sans-serif;
+  font-size: 18px;
+  background: url(https://catherineasquithgallery.com/uploads/posts/2021-12/1639777663_291-catherineasquithgallery-com-p-krasivii-rozovii-fon-gradient-415.jpg);
+  background-repeat: repeat;
+  background-size: cover;
+}
+header{
+    display:grid;
+    grid-template-columns: 1fr 280px;
+    gap:0px;
+    margin:0px;
+    padding-bottom:70px ;
+    padding-top:30px ;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.title-pink{
+  color:#6495ed;
+}
+.quote{
+  display: table;
+  margin:0 auto;
+  color:black;
+  padding-bottom: 50px ;
+  padding-top: 50px ;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin:0px;
+  background-image: url(https://storage.googleapis.com/stateless-restorationdigitalmarketing-com/2018/02/social-media-advertising-restoration.png);
+  background-repeat: no-repeat;
+  background-size: 240px 180px;
+  font-size: 20px;
+}
+.list-days{
+  display: grid;
+  grid-template-columns:1fr 1fr;
+  margin:0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom:40px;
+  padding-top:25px;
+  row-gap:30px;
+  column-gap: 20px;
+
+}
+.day{
+  border:2px dashed black;
+  list-style-type:none;
+  background: linear-gradient(to bottom,#7fc7ff,#138cbf);
+  padding-left: 20px;
+  padding-bottom:10px ;
+  padding-top:10px ;
+  padding-right: 10px;
+  font-size: 18px;
+}
+h2{
+  margin: 0px;
+  padding: 0px;
+  font-family: "Comic Sans MS",sans-serif;
+  font-size: 24px;
+}
+h1{
+  font-size: 32px;
+}
+footer{
+  padding-left: 20px;
+  padding-bottom:20px ;
+  padding-top:10px ;
+  background: linear-gradient(to right,#7fc7ff,#138cbf);
+}
+p{
+  margin: 0px;
+  padding: 0px;
+  font-family: "Comic Sans MS",sans-serif;
+}
+.size{
+  transition: 1s;
+}
+.size:hover{
+  transform: scale(1.03)
+}
