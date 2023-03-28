@@ -1,0 +1,44 @@
+.brick-layout {
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    padding: 5px;
+    box-sizing: content-box;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.brick {
+    min-height: 80px;
+    min-width: 50px;
+    flex-basis: 100px;
+}
+
+.color-aqua {
+    background-color: aqua;
+}
+
+.color-yellow {
+    background-color: yellow;
+}
+
+.color-fuchsia {
+    background-color: fuchsia;
+}
+
+.color-aqua:nth-child(2){
+    flex-grow:1;
+}
+
+.color-yellow:nth-child(4){
+    flex-grow:1;
+}
+
+.color-yellow:nth-child(6){
+    flex-grow:1;
+}
+
+.color-fuchsia:nth-child(8) {
+    flex-grow:1;
+}
